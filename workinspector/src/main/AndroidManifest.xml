@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application>
+
+        <activity
+            android:name=".WorkInspectorActivity"
+            android:exported="true"
+            android:label="@string/wi_lib_name"
+            android:theme="@style/Theme.WorkInspector" />
+
+        <activity-alias
+            android:name="${applicationId}.WorkInspectorLauncherActivity"
+            android:enabled="@bool/wi_launcher_icon_enabled"
+            android:exported="true"
+            android:icon="@mipmap/wi_ic_launcher"
+            android:roundIcon="@mipmap/wi_ic_launcher_round"
+            android:targetActivity=".WorkInspectorActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity-alias>
+
+        <provider
+            android:name=".WorkInspectorInitProvider"
+            android:authorities="${applicationId}.WORKINSPECTOR_INIT"
+            android:enabled="true"
+            android:exported="false" />
+    </application>
+</manifest>

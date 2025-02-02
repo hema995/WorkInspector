@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="wi_state_blocked">#FBC02D</color>
+    <color name="wi_state_cancelled">#B1B1B1</color>
+    <color name="wi_state_failed">#D32F2F</color>
+    <color name="wi_state_queued">#512DA8</color>
+    <color name="wi_state_running">#0288D1</color>
+    <color name="wi_state_succeeded">#388E3C</color>
+    <color name="wi_state_unknown">#545454</color>
+</resources>
