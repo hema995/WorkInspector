@@ -2,7 +2,7 @@
 
 Library to inspect the Android WorkManager jobs. Like an App inspector, but on a device. 
 
-[![](https://jitpack.io/v/koitharu/workinspector.svg)](https://jitpack.io/#koitharu/workinspector) ![minSdk21](https://img.shields.io/badge/minSdk-21-red) ![Kotlin](https://img.shields.io/github/languages/top/koitharu/workinspector)
+[![](https://jitpack.io/v/hema995/workinspector.svg)](https://jitpack.io/#hema995/workinspector) ![minSdk21](https://img.shields.io/badge/minSdk-21-red) ![Kotlin](https://img.shields.io/github/languages/top/koitharu/workinspector)
 
 ### Screenshots
 
@@ -30,7 +30,7 @@ Library to inspect the Android WorkManager jobs. Like an App inspector, but on a
     }
     ```
 
-   Versions are available on [JitPack](https://jitpack.io/#koitharu/workinspector)
+   Versions are available on [JitPack](https://jitpack.io/#hema995/workinspector)
 
 3. Usage
 
